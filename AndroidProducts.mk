@@ -8,3 +8,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/64bitonly/product/sdk_slim_arm64.mk \
     $(LOCAL_DIR)/fvpbase/fvp.mk \
     $(LOCAL_DIR)/fvpbase/fvp_mini.mk
+
+# Setup Wizard device-specific settings
+PRODUCT_SYSTEM_PROPERTIES += \
+    setupwizard.theme=glif_v4_light \
