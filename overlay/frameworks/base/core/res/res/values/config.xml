@@ -101,4 +101,7 @@
     <bool name="config_supportMicNearUltrasound">true</bool>
     <bool name="config_supportSpeakerNearUltrasound">true</bool>
 
+    <bool name="config_buttonTextAllCaps">false</bool>
+    <dimen name="config_buttonCornerRadius">4dp</dimen>
+
 </resources>
